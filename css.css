@@ -1,0 +1,30 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pic.jpg');  */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #CC0066	; 
+    text-align: center;
+    text-size-adjust: 20px;
+    height: 100vh; 
+    display: flex; 
+    justify-content:left; 
+    align-items:left;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.picture {
+    width:600px; 
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 50px; 
+}
